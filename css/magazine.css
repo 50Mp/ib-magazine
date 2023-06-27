@@ -1,6 +1,6 @@
 body {
 	overflow: scroll;
-	background-color: #480961;
+	background-color: #662D91;
 	margin: 0;
 	padding: 0;
 }
@@ -9,11 +9,10 @@ body {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-
-
 	width: 1080px;
 	height: 1723px;
 	margin: auto;
+	border: 3px  #FBB040;
 	
 }
 
@@ -50,7 +49,7 @@ body {
 .magazine .region {
 	position: absolute;
 	overflow: hidden;
-	/* background: #ff008c; */
+	background: #ffffff;
 	opacity: 0.2;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -144,7 +143,7 @@ body {
 	left: 219px;
 }
 
-.magazine-viewport .shadow {
+/* .magazine-viewport .shadow {
 	-webkit-transition: -webkit-box-shadow 0.5s;
 	-moz-transition: -moz-box-shadow 0.5s;
 	-o-transition: -webkit-box-shadow 0.5s;
@@ -155,7 +154,7 @@ body {
 	-o-box-shadow: 0 0 20px #ccc;
 	-ms-box-shadow: 0 0 20px #ccc;
 	box-shadow: 0 0 20px #ccc;
-}
+} */
 
 .magazine-viewport .next-button,
 .magazine-viewport .previous-button {
@@ -183,10 +182,10 @@ body {
 	border-radius: 15px 0 0 15px;
 }
 
-/* .magazine-viewport .previous-button-hover,
+.magazine-viewport .previous-button-hover,
 .magazine-viewport .next-button-hover {
 	background-color: rgba(0, 0, 0, 0.2);
-} */
+}
 
 .magazine-viewport .previous-button-hover,
 .magazine-viewport .previous-button-down {
@@ -195,10 +194,10 @@ body {
 	background-repeat: no-repeat;
 }
 
-/* .magazine-viewport .previous-button-down,
+.magazine-viewport .previous-button-down,
 .magazine-viewport .next-button-down {
 	background-color: rgba(0, 0, 0, 0.4);
-} */
+}
 
 .magazine-viewport .next-button-hover,
 .magazine-viewport .next-button-down {
@@ -271,11 +270,11 @@ body {
 	list-style: none;
 	display: inline-block;
 	margin: 0 5px;
-	-webkit-box-shadow: 0 0 10px #ccc;
+	/* -webkit-box-shadow: 0 0 10px #ccc;
 	-moz-box-shadow: 0 0 10px #ccc;
 	-ms-box-shadow: 0 0 10px #ccc;
 	-o-box-shadow: 0 0 10px #ccc;
-	box-shadow: 0 0 10px #ccc;
+	box-shadow: 0 0 10px #ccc; */
 	-webkit-transition: -webkit-transform 60ms;
 	-moz-transition: -webkit-transform 60ms;
 	-o-transition: -webkit-transform 60ms;
@@ -288,11 +287,16 @@ body {
 }
 
 .thumbnails .current {
-	-webkit-box-shadow: 0 0 10px red;
+	transform: scale3d(1.3, 1.3, 1);
+	border: 3px  #FBB040;
+	background-color: #FBB040;
+	border-radius: 8px;
+	border-style: solid;
+	/* -webkit-box-shadow: 0 0 10px red;
 	-moz-box-shadow: 0 0 10px red;
 	-ms-box-shadow: 0 0 10px red;
 	-o-box-shadow: 0 0 10px red;
-	box-shadow: 0 0 10px red;
+	box-shadow: 0 0 10px red; */
 }
 
 .thumbnails .thumb-hover {
@@ -302,11 +306,11 @@ body {
 	-ms-transform: scale3d(1.3, 1.3, 1);
 	transform: scale3d(1.3, 1.3, 1);
 
-	-webkit-box-shadow: 0 0 10px #666;
+	/* -webkit-box-shadow: 0 0 10px #666;
 	-moz-box-shadow: 0 0 10px #666;
 	-ms-box-shadow: 0 0 10px #666;
 	-o-box-shadow: 0 0 10px #666;
-	box-shadow: 0 0 10px #666;
+	box-shadow: 0 0 10px #666; */
 }
 
 .thumbanils-touch .thumb-hover {
