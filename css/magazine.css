@@ -1,11 +1,14 @@
 body {
 	overflow: scroll;
+	background-image: url(../pages/pt_bg.png);
 	background-color: #662D91;
+
 	margin: 0;
 	padding: 0;
 }
 
 .magazine-viewport .container {
+	
 	position: absolute;
 	top: 50%;
 	left: 50%;
